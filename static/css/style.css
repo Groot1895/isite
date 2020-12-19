@@ -1,3 +1,11 @@
+body {
+  background: ghostwhite;
+}
+.con {
+  border-radius: 0.25rem;
+  background: ghostwhite;
+  box-shadow:  9px 9px 9px lightgray,-9px -9px 9px white;
+}
 .bg {
   background: #014782;
 }
@@ -6,12 +14,22 @@ hr {
   opacity: 1 !important;
 }
 
+.nav-pills .nav-link {
+  border-radius: 0.25rem;
+  background: ghostwhite;
+  box-shadow:  9px 9px 9px lightgray,-9px -9px 9px white;
+}
+
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: lightgray !important;
+  border-radius: 0.25rem;
+  background: white;
+  box-shadow: inset 9px 9px 9px lightgray, inset -9px -9px 9px white;
+  /*background-color: lightgray !important;*/
 }
 
 .list-group-item {
+  background: transparent;
   border: 1px solid rgba(0, 0, 0, 0) !important;
 }
