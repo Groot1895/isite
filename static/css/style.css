@@ -1,3 +1,17 @@
-.bg-name {
-  background-color: transparent;
+.bg {
+  background: #014782;
+}
+
+hr {
+  opacity: 1 !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: lightgray !important;
+}
+
+.list-group-item {
+  border: 1px solid rgba(0, 0, 0, 0) !important;
 }
