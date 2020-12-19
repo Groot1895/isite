@@ -4,7 +4,7 @@ body {
 .con {
   border-radius: 0.25rem;
   background: ghostwhite;
-  box-shadow:  9px 9px 9px lightgray,-9px -9px 9px white;
+  box-shadow:  6px 6px 6px lightgray,-6px -6px 6px white;
 }
 .bg {
   background: #014782;
@@ -17,7 +17,7 @@ hr {
 .nav-pills .nav-link {
   border-radius: 0.25rem;
   background: ghostwhite;
-  box-shadow:  9px 9px 9px lightgray,-9px -9px 9px white;
+  box-shadow:  6px 6px 6px lightgray,-6px -6px 6px white;
 }
 
 .nav-pills .nav-link.active,
@@ -25,7 +25,7 @@ hr {
   color: #fff;
   border-radius: 0.25rem;
   background: white;
-  box-shadow: inset 9px 9px 9px lightgray, inset -9px -9px 9px white;
+  box-shadow: inset 6px 6px 6px lightgray, inset -6px -6px 6px white;
   /*background-color: lightgray !important;*/
 }
 
