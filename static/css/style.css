@@ -7,14 +7,17 @@ body {
   border-radius: 0.25rem;
   background: #d6d6d6;
   box-shadow:  3px 3px 10px #b6b6b6,-3px -3px 10px #f6f6f6;
-}
 
-.bg {
-  background: #014782;
 }
 
 hr {
   opacity: 1 !important;
+}
+
+.hov:hover {
+  margin: auto;
+  color: white;
+  background-color: gray;
 }
 
 .nav-link {
@@ -28,8 +31,9 @@ hr {
 .nav-pills .nav-link {
   border-radius: 0.25rem;
   background: #d6d6d6;
-  color: #b6b6b6;
+  color: dimgray;
   box-shadow:  3px 3px 10px #b6b6b6,-3px -3px 10px #f6f6f6;
+
 }
 
 .nav-pills .nav-link.active,
