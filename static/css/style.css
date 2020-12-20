@@ -1,11 +1,13 @@
 body {
   background: ghostwhite;
 }
+
 .con {
   border-radius: 0.25rem;
   background: ghostwhite;
   box-shadow:  6px 6px 10px #d1cdc7,-6px -6px 10px white;
 }
+
 .bg {
   background: #014782;
 }
