@@ -20,7 +20,7 @@ hr {
   border-radius: 0.25rem;
   background: #d6d6d6;
   color: #b6b6b6;
-  box-shadow:  3px 3px 10px #b6b6b6,-3px -3px 10px #f6f6f6;
+  box-shadow:  3px 3px 10px #b6b6b6,-3px -3px 10px #f6f6f6;  
 }
 
 .nav-pills .nav-link.active,
