@@ -16,8 +16,8 @@ hr {
 
 .hov:hover {
   margin: auto;
-  color: white;
-  background-color: gray;
+  color: inherit;
+  background-color: silver;
 }
 
 .nav-link {
@@ -39,7 +39,7 @@ hr {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   border-radius: 0.25rem;
-  background: #d6d6d6;
+  background: linear-gradient(145deg, #c1c1c1, #e5e5e5);
   color: black;
 }
 
