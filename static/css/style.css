@@ -31,7 +31,7 @@ hr {
 .nav-pills .nav-link {
   border-radius: 0.25rem;
   background: #d6d6d6;
-  color: dimgray;
+  color: gray;
   box-shadow:  3px 3px 10px #b6b6b6,-3px -3px 10px #f6f6f6;
 
 }
