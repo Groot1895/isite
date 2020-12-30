@@ -1,0 +1,47 @@
+
+body {
+  background: #e4e4e7;
+}
+
+.con {
+  border-radius: 0.25rem;
+  background: #e4e4e7;
+}
+
+hr {
+  opacity: 1 !important;
+}
+
+.hov:hover {
+  margin: auto;
+  color: inherit;
+  background-color: silver;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  margin: 6px;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0.25rem;
+  background: gainsboro;
+  color: dimgray;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  border-radius: 0.25rem;
+  background: transparent;
+  color: black;
+  border: none;
+  box-shadow:  3px 3px 10px #c2c2c4, -3px -3px 10px #ffffff;
+}
+
+.list-group-item {
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+}
