@@ -1,12 +1,12 @@
 
 body {
-  background: #e4e4e7;
+  background: #d6d6d6;
 }
 
 .con {
   border-radius: 0.25rem;
-  background: #e4e4e7;
-  box-shadow:  3px 3px 10px #c2c2c4,-3px -3px 10px #ffffff;
+  background: #d6d6d6;
+  box-shadow:  3px 3px 10px #b6b6b6,-3px -3px 10px #f6f6f6;
 }
 
 hr {
@@ -29,15 +29,15 @@ hr {
 
 .nav-pills .nav-link {
   border-radius: 0.25rem;
-  background: #e4e4e7;
+  background: #d6d6d6;
   color: gray;
-  box-shadow:  3px 3px 10px #c2c2c4,-3px -3px 10px #ffffff;
+  box-shadow:  3px 3px 10px #b6b6b6,-3px -3px 10px #f6f6f6;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   border-radius: 0.25rem;
-  background: linear-gradient(145deg, #cdcdd0, #e5e5e5);
+  background: linear-gradient(145deg, #c1c1c1, #e5e5e5);
   color: black;
 }
 
