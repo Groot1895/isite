@@ -6,6 +6,7 @@ body {
 .con {
   border-radius: 0.25rem;
   background: #d8cfcf;
+   box-shadow:  3px 3px 10px #b8b0b0,-3px -3px 10px #f8eeee;
 }
 
 hr {
@@ -28,14 +29,14 @@ hr {
 
 .nav-pills .nav-link {
   border-radius: 0.25rem;
-  background: rgb(231,221,221,.6);
+  background: rgb(231,221,221,.3);
   color: dimgray;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   border-radius: 0.25rem;
-  background: transparent;
+  background: rgb(231,221,221,.6);
   color: black;
   border: none;
 }
