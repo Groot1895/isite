@@ -1,12 +1,11 @@
-
 body {
-  background: #d8cfcf;
+  background: #d6d6d6;
 }
 
 .con {
   border-radius: 0.25rem;
-  background: #d8cfcf;
-   box-shadow:  3px 3px 10px #b8b0b0,-3px -3px 10px #f8eeee;
+  background: #d6d6d6;
+  box-shadow:  3px 3px 10px #b6b6b6,-3px -3px 10px #f6f6f6;
 }
 
 hr {
@@ -16,7 +15,7 @@ hr {
 .hov:hover {
   margin: auto;
   color: inherit;
-  background-color: #E7DDDD;
+  background-color: silver;
 }
 
 .nav-link {
@@ -29,16 +28,16 @@ hr {
 
 .nav-pills .nav-link {
   border-radius: 0.25rem;
-  background: rgb(231,221,221,.3);
-  color: dimgray;
+  background: silver;
+  color: gray;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   border-radius: 0.25rem;
-  background: rgb(231,221,221,.6);
+  background: inherit;
   color: black;
-  border: none;
+  box-shadow:  3px 3px 10px #b6b6b6,-3px -3px 10px #f6f6f6;
 }
 
 .list-group-item {
