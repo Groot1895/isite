@@ -1,10 +1,10 @@
 body {
-  background: #d6d6d6;
+  background: gainsboro;
 }
 
 .con {
   border-radius: 0.25rem;
-  background: #d6d6d6;
+  background: inherit;
   box-shadow:  3px 3px 10px #b6b6b6,-3px -3px 10px #f6f6f6;
 }
 
@@ -28,7 +28,7 @@ hr {
 
 .nav-pills .nav-link {
   border-radius: 0.25rem;
-  background: gainsboro;
+  background: lightgray;
   color: gray;
 }
 
