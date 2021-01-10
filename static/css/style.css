@@ -11,9 +11,9 @@ body {
 }
 
 .con {
-  border-radius: 0.25rem;
+  border-radius: 0.55rem;
   background: inherit;
-  box-shadow:  3px 3px 10px #b6b6b6,-3px -3px 10px #f6f6f6;
+  box-shadow:  3px 3px 6px #aaaaaa,-3px -3px 6px #fdfdfd;
 }
 
 hr {
@@ -35,17 +35,17 @@ hr {
 }
 
 .nav-pills .nav-link {
-  border-radius: 0.25rem;
-  background: lightgray;
+  border-radius: 0.55rem;
   color: gray;
+  background: lightgray;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  border-radius: 0.25rem;
+  border-radius: 0.55rem;
   background: inherit;
   color: black;
-  box-shadow:  3px 3px 10px #b6b6b6,-3px -3px 10px #f6f6f6;
+  box-shadow: 3px 3px 6px #aaaaaa, -3px -3px 6px #fdfdfd;
 }
 
 .list-group-item {
