@@ -52,3 +52,16 @@ hr {
   background: transparent;
   border: 1px solid rgba(0, 0, 0, 0) !important;
 }
+
+.popout {
+    animation: popout .6s ease;
+    -webkit-animation: popout .6s ease;
+}
+@keyframes popout {
+    from{transform:scale(0.9)}
+    to{transform:scale(1)}
+}
+@-webkit-keyframes popout {
+    from{-webkit-transform:scale(0.9)}
+    to{-webkit-transform:scale(1)}
+}
