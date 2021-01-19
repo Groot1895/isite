@@ -50,7 +50,7 @@ hr {
 
 .list-group-item {
   background: transparent;
-  border: 1px solid rgba(0, 0, 0, 0) !important;
+  border: none;
 }
 
 .popout {
@@ -58,10 +58,10 @@ hr {
     -webkit-animation: popout .6s ease;
 }
 @keyframes popout {
-    from{transform:scale(0.9)}
+    from{transform:scale(0.8)}
     to{transform:scale(1)}
 }
 @-webkit-keyframes popout {
-    from{-webkit-transform:scale(0.9)}
+    from{-webkit-transform:scale(0.8)}
     to{-webkit-transform:scale(1)}
 }
