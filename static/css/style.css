@@ -20,8 +20,7 @@ hr {
   opacity: 1 !important;
 }
 
-.hov:hover {
-  margin: auto;
+.hov:hover {  
   color: inherit;
   background-color: silver;
 }
