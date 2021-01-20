@@ -37,8 +37,8 @@ hr {
   border-radius: 0.55rem;
   color: gray;
   background: lightgray;
-  animation: popout 1s ease;
-  -webkit-animation: popout 1s ease;
+  animation: popout 1.2s ease;
+  -webkit-animation: popout 1.2s ease;
 }
 
 .nav-pills .nav-link.active,
@@ -47,8 +47,8 @@ hr {
   background: inherit;
   color: black;
   box-shadow: 3px 3px 6px #aaaaaa, -3px -3px 6px #fdfdfd;
-  animation: popout .3s ease;
-  -webkit-animation: popout .3s ease;
+  animation: popout .6s ease;
+  -webkit-animation: popout .6s ease;
 }
 
 .list-group-item {
