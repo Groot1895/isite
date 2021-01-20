@@ -37,6 +37,8 @@ hr {
   border-radius: 0.55rem;
   color: gray;
   background: lightgray;
+  animation: popout 1s ease;
+  -webkit-animation: popout 1s ease;
 }
 
 .nav-pills .nav-link.active,
@@ -45,6 +47,8 @@ hr {
   background: inherit;
   color: black;
   box-shadow: 3px 3px 6px #aaaaaa, -3px -3px 6px #fdfdfd;
+  animation: popout .3s ease;
+  -webkit-animation: popout .3s ease;
 }
 
 .list-group-item {
@@ -52,14 +56,15 @@ hr {
   border: none;
 }
 
-.popout {
-    animation: popout .6s ease;
-    -webkit-animation: popout .6s ease;
-    animation-delay: .6s;
-}
 @keyframes popout {
-    from{transform:scale(0.8)}
-    to{transform:scale(1)}
+    from{
+      transform:scale(0.9);
+      opacity: 0;
+    }
+    to{
+      transform:scale(1);
+      opacity: 1;
+    }
 }
 @-webkit-keyframes popout {
     from{-webkit-transform:scale(0.8)}
