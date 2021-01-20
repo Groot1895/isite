@@ -20,7 +20,7 @@ hr {
   opacity: 1 !important;
 }
 
-.hov:hover {  
+.hov:hover {
   color: inherit;
   background-color: silver;
 }
@@ -55,6 +55,7 @@ hr {
 .popout {
     animation: popout .6s ease;
     -webkit-animation: popout .6s ease;
+    animation-delay: 1s;
 }
 @keyframes popout {
     from{transform:scale(0.8)}
