@@ -2,10 +2,6 @@ html {
   scrollbar-width: none;
 }
 
-html::-webkit-scrollbar {
-    display: none;
-}
-
 body {
   background: gainsboro;
 }
@@ -65,8 +61,4 @@ hr {
       transform:scale(1);
       opacity: 1;
     }
-}
-@-webkit-keyframes popout {
-    from{-webkit-transform:scale(0.8)}
-    to{-webkit-transform:scale(1)}
 }
