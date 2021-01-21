@@ -18,7 +18,7 @@ hr {
 
 .hov:hover {
   color: inherit;
-  background-color: silver;
+  background-color: lightgray;
 }
 
 .nav-link {
@@ -46,7 +46,7 @@ hr {
 }
 
 .list-group-item {
-  background: transparent;
+  background: inherit;
   border: none;
 }
 
