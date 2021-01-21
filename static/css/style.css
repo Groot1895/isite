@@ -3,13 +3,13 @@ html {
 }
 
 body {
-  background: gainsboro;
+  background: #e0e0e0;
 }
 
 .con {
   border-radius: 0.55rem;
   background: inherit;
-  box-shadow:  3px 3px 6px #aaaaaa,-3px -3px 6px #fdfdfd;
+  box-shadow:  3px 3px 6px #bebebe,-3px -3px 6px #ffffff;
 }
 
 hr {
@@ -33,8 +33,7 @@ hr {
   border-radius: 0.55rem;
   color: gray;
   background: lightgray;
-  animation: popout 1.2s ease;
-  -webkit-animation: popout 1.2s ease;
+  animation: fade .6s ease;
 }
 
 .nav-pills .nav-link.active,
@@ -42,9 +41,8 @@ hr {
   border-radius: 0.55rem;
   background: inherit;
   color: black;
-  box-shadow: 3px 3px 6px #aaaaaa, -3px -3px 6px #fdfdfd;
-  animation: popout .6s ease;
-  -webkit-animation: popout .6s ease;
+  box-shadow: 3px 3px 6px #bebebe, -3px -3px 6px #ffffff;
+  animation: pop .6s ease;
 }
 
 .list-group-item {
@@ -52,12 +50,27 @@ hr {
   border: none;
 }
 
-@keyframes popout {
+@keyframes fade {
     from{
       transform:scale(0.9);
       opacity: 0;
     }
     to{
+      transform:scale(1);
+      opacity: 1;
+    }
+}
+
+@keyframes pop {
+    0%{
+      transform:scale(0.9);
+      opacity: 0;
+    }
+    50%{
+      transform:scale(1.05);
+      opacity: 1;
+    }
+    100%{
       transform:scale(1);
       opacity: 1;
     }
