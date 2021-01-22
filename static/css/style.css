@@ -49,21 +49,7 @@ hr {
   border: none;
 }
 
-.end {
-  animation: pop 1s ease;
-}
 
-.pop {
-  animation: pop .8s ease;
-}
-
-.mid {
-  animation: pop .6s ease;
-}
-
-.cent {
-  animation: pop .5s ease;
-}
 
 @keyframes pop {
     0%{
