@@ -1,6 +1,15 @@
+html {
+  scrollbar-width: none;
+}
+
 body {
   background: #e0e0e0;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 
 hr {
   opacity: 1;
