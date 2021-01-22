@@ -50,42 +50,57 @@ hr {
 }
 
 .end {
-  animation: pop .8s ease;
+  animation: pop 1s ease;
 }
 
 .pop {
-  animation: pop .7s ease;
+  animation: pop .8s ease;
 }
 
 .mid {
   animation: pop .6s ease;
 }
 
-.bd {
-  animation: pop 1s ease;
+.cent {
+  animation: pop .5s ease;
 }
 
-.dissolve {
-  animation: fade .6s ease;
+.b {
+  animation: pop 1.1s ease;
 }
 
-@keyframes fade {
-    from{
-      transform:scale(0.9);
-      opacity: 0;
-    }
-    to{
-      transform:scale(1);
-      opacity: 1;
-    }
+.b1 {
+  animation: pop 1.2s ease;
+}
+
+.b2 {
+  animation: pop 1.3s ease;
+}
+
+.b3 {
+  animation: pop 1.4s ease;
+}
+
+.b4 {
+  animation: pop 1.6s ease;
+}
+
+.ll {
+  animation: line 3s ease;
 }
 
 @keyframes pop {
     0%{
-      transform:scale(6);
+      transform:scale(3);
       opacity: 0;
     }
-    60%{
+    50%{
+      opacity: 0;
+    }
+}
+
+@keyframes line {
+    from{
       opacity: 0;
     }
 }
