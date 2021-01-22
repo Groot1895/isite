@@ -20,8 +20,7 @@ body {
 }
 .con {
   border-radius: 0.55rem;
-  background: inherit;
-  box-shadow:  3px 3px 6px #bebebe,-3px -3px 6px #ffffff;
+  background: inherit;  
 }
 
 hr {
