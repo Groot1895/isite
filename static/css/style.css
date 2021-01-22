@@ -18,9 +18,10 @@ html::before {
 body {
   background: #e0e0e0;
 }
+
 .con {
   border-radius: 0.55rem;
-  background: inherit;  
+  background: inherit;
 }
 
 hr {
