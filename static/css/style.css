@@ -1,15 +1,9 @@
 html {
   scrollbar-width: none;
-  scroll-behavior: smooth;
 }
 
 body {
   background: #e0e0e0;
-}
-
-.con {
-  border-radius: 0.55rem;
-  background: inherit;
 }
 
 hr {
@@ -62,6 +56,16 @@ hr {
 
 .cent {
   animation: pop .5s ease;
+}
+
+@keyframes pop {
+    0%{
+      transform:scale(6);
+      opacity: 0;
+    }
+    50%{
+      opacity: 0;
+    }
 }
 
 .carousel-fade .active.carousel-item-start,
