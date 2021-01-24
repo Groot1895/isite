@@ -58,10 +58,6 @@ hr {
       opacity: 0;
       z-index: auto;
     }
-    50%{
-      opacity: 0;
-      z-index: auto;
-    }
 }
 
 .carousel-fade .active.carousel-item-start,
