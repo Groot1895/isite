@@ -57,7 +57,7 @@ hr {
       transform:scale(6);
       opacity: 0;
     }
-    60%{
+    45%{
       opacity: 0;
     }
 }
