@@ -11,7 +11,7 @@ hr {
 }
 
 .hov:hover {
-  background-color: lightgray;
+  background-color: #e0e0e0;
 }
 
 .nav-link {
@@ -20,7 +20,7 @@ hr {
 
 .nav-pills .nav-link {
   border-radius: 0.55rem;
-  color: gray;  
+  color: gray;
   box-shadow: 3px 3px 6px #cccccc, -3px -3px 6px #ffffff,inset 3px 3px 6px #cccccc, inset -3px -3px 6px #ffffff;
 }
 
