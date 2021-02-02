@@ -52,9 +52,22 @@ hr {
   animation: pop .6s ease;
 }
 
+.fd {
+  animation: fade 2s ease;
+}
+
 @keyframes pop {
   0%{
     transform:scale(6);
+    opacity: 0;
+  }
+  45%{
+    opacity: 0;
+  }
+}
+
+@keyframes fade {
+  0%{    
     opacity: 0;
   }
   45%{
