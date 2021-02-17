@@ -4,17 +4,11 @@
   box-sizing: border-box;
 }
 
-html {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+html {  
   animation: fade 2s ease;
   user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-}
-
-html::-webkit-scrollbar {
-  display: none;
 }
 
 body {
@@ -69,4 +63,13 @@ hr {
 
 .nav {  
   flex-wrap: nowrap;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
