@@ -32,6 +32,7 @@ hr {
 
 .nav-link {
   margin: 6px;
+  white-space: nowrap;
 }
 
 .nav-pills .nav-link {
@@ -66,3 +67,7 @@ hr {
   transition: opacity 0.6s;
 }
 
+.nav {
+  
+  flex-wrap: nowrap;
+}
