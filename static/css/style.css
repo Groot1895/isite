@@ -6,11 +6,20 @@
 
 html {
   scrollbar-width: none;
+  -ms-overflow-style: none;
+  animation: fade 2s ease;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
 }
 
 body {
   background: #f0f0f0;
-  min-height: 100vh;  
+  min-height: 100vh;
 }
 
 hr {
@@ -43,36 +52,6 @@ hr {
   border: none;
 }
 
-.end {
-  animation: pop 1.5s ease;
-}
-
-.pop {
-  animation: pop 1.2s ease;
-}
-
-.mid {
-  animation: pop .9s ease;
-}
-
-.cent {
-  animation: pop .6s ease;
-}
-
-.fd {
-  animation: fade 2s ease;
-}
-
-@keyframes pop {
-  0%{
-    transform:scale(4);
-    opacity: 0;
-  }
-  45%{
-    opacity: 0;
-  }
-}
-
 @keyframes fade {
   0%{    
     opacity: 0;
@@ -86,3 +65,4 @@ hr {
 .carousel-fade .active.carousel-item-end {
   transition: opacity 0.6s;
 }
+
