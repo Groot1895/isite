@@ -11,7 +11,6 @@ html {
   user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-  scrollbar-color: inherit;
 }
 
 html::-webkit-scrollbar {
