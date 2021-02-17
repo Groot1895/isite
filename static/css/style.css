@@ -70,7 +70,3 @@ hr {
 .nav {  
   flex-wrap: nowrap;
 }
-
-nav::-webkit-scrollbar {
-  display: none;
-}
