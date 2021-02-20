@@ -32,14 +32,14 @@ hr {
 .nav-pills .nav-link {
   border-radius: 1rem;
   color: gray;
-  box-shadow: 3px 3px 6px #cccccc, -3px -3px 6px #ffffff,inset 3px 3px 6px #cccccc, inset -3px -3px 6px #ffffff;
+  box-shadow: 3px 3px 3px #cccccc, -3px -3px 3px #ffffff,inset 3px 3px 3px #cccccc, inset -3px -3px 3px #ffffff;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   background: inherit;
   color: black;
-  box-shadow: 3px 3px 6px #cccccc, -3px -3px 6px #ffffff;
+  box-shadow: 3px 3px 3px #cccccc, -3px -3px 3px #ffffff;
 }
 
 .list-group-item {
