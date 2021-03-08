@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: #f0f0f0;
+  background: whitesmoke;
   min-height: 100vh;
 }
 
@@ -32,14 +32,14 @@ hr {
 .nav-pills .nav-link {
   border-radius: 1rem;
   color: gray;
-  box-shadow: 3px 3px 3px #cccccc, -3px -3px 3px #ffffff,inset 3px 3px 3px #cccccc, inset -3px -3px 3px #ffffff;
+  box-shadow: 3px 3px 6px #dddddd, -3px -3px 6px #ffffff,inset 3px 3px 6px #dddddd, inset -3px -3px 6px #ffffff;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   background: inherit;
   color: black;
-  box-shadow: 3px 3px 3px #cccccc, -3px -3px 3px #ffffff;
+  box-shadow: 3px 3px 6px #dddddd, -3px -3px 6px #ffffff;
 }
 
 .list-group-item {
