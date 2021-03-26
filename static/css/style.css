@@ -82,7 +82,7 @@ html {
 
   body {
     color: white;
-    background: #242424;
+    background: #1f1f1f;
     min-height: 100vh;
   }
 
@@ -93,14 +93,14 @@ html {
   .nav-pills .nav-link {
     border-radius: 1rem;
     color: gray;
-    box-shadow: 3px 3px 6px #1f1f1f,-3px -3px 6px #292929,inset 3px 3px 6px #1f1f1f,inset -3px -3px 6px #292929;
+    box-shadow: 3px 3px 6px #1a1a1a,-3px -3px 6px #242424,inset 3px 3px 6px #1a1a1a,inset -3px -3px 6px #242424;
   }
   
   .nav-pills .nav-link.active,
   .nav-pills .show > .nav-link {
     background: inherit;
     color: white;
-    box-shadow: 3px 3px 6px #1f1f1f,-3px -3px 6px #292929;
+    box-shadow: 3px 3px 6px #1a1a1a,-3px -3px 6px #242424;
   }
 
   .hov:hover {
