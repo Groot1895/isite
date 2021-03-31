@@ -1,8 +1,7 @@
 html {
   user-select: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
-  font-family: 'Mulish', sans-serif;
+  -ms-user-select: none;  
 }
 
 .nav-link {
@@ -38,6 +37,7 @@ html {
 
   body {
     background: whitesmoke;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
     min-height: 100vh;
   }
 
@@ -98,6 +98,7 @@ html {
     color: white;
     background: #1c1c1e;
     min-height: 100vh;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
   }
 
   a, a:hover {    
