@@ -1,439 +1,476 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scrollbar-hidden">
 
-  <head>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valavan</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="static/images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="static/images/favicon/safari-pinned-tab.svg" color="#000000">
-    <link rel="shortcut icon" href="static/images/favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#000000">
-    <meta name="msapplication-config" content="static/images/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <link href="https://fonts.googleapis.com/css?family=Google+Sans:300,400,400i,500" rel="stylesheet">
-    <link href="static/css/bootstrap.css" rel="stylesheet">
-    <link href="static/css/style.css" rel="stylesheet">    
-    <script src="static/js/jquery-3.js"> </script>
-    <script src="static/js/bootstrap.js"> </script>
-    <script src="static/js/style.js"> </script>
+<head>
 
-  </head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valavan</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="static/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="static/images/favicon/safari-pinned-tab.svg" color="#000000">
+  <link rel="shortcut icon" href="static/images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="msapplication-config" content="static/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans:300,400,400i,500" rel="stylesheet">
+  <link href="static/css/bootstrap.css" rel="stylesheet">
+  <link href="static/css/style.css" rel="stylesheet">
+  <script src="static/js/jquery-3.js"> </script>
+  <script src="static/js/bootstrap.js"> </script>
+  <script src="static/js/style.js"> </script>
 
-  <body>
+</head>
 
-    <div class="preloader">
-      <div class="status"></div>
+<body>
+
+  <div class="preloader">
+    <div class="status p-5"></div>
+  </div>
+
+  <div class="container">
+
+    <div class="row row-cols-1 text-center pt-5 pb-1">
+      <div class="col">
+        <h1 class="fw-normal">Ponni<img src="static/images/logo.png" alt="" height="6" width="6">Valavan</h1>
+      </div>
+      <div class="col">
+        <div class="row pb-3">
+          <div class="col-sm">
+            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="https://github.com/Groot1895" class="text-decoration-none">Groot</a>
+                </div>
+                <div class="carousel-item">
+                  <label>GitHub</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="https://t.me/Shogyomujo" class="text-decoration-none">Shogyomujo</a>
+                </div>
+                <div class="carousel-item">
+                  <label>Telegram</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="mailto:kponnivalavan95@gmail.com?subject=webcall"
+                    class="text-decoration-none">kponnivalavan95@gmail.com</a>
+                </div>
+                <div class="carousel-item">
+                  <label>Mail / iMessage </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col pt-3 border-top border-c">
+        <p>Looking forward for an opportunity to work in a dynamic & challenging environment, where I can utilize my
+          skills for developing my career & for the growth of the organization</p>
+      </div>
     </div>
 
-    <div class="container">
+    <ul class="nav nav-pills pt-1 pb-1 scrollbar-hidden" id="pills-tab" role="tablist" style="overflow: auto;">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="pills-qualification-tab" data-bs-toggle="pill" href="#pills-qualification"
+          role="tab" aria-controls="pills-qualification" aria-selected="true">Qualification</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-exposure-tab" data-bs-toggle="pill" href="#pills-exposure" role="tab"
+          aria-controls="pills-exposure" aria-selected="false">Exposure</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-projects-tab" data-bs-toggle="pill" href="#pills-projects" role="tab"
+          aria-controls="pills-projects" aria-selected="false">Projects</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-interest-tab" data-bs-toggle="pill" href="#pills-interest" role="tab"
+          aria-controls="pills-interest" aria-selected="false">Interest</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-experience-tab" data-bs-toggle="pill" href="#pills-experience" role="tab"
+          aria-controls="pills-experience" aria-selected="false">Experience</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-certificate-tab" data-bs-toggle="pill" href="#pills-certificate" role="tab"
+          aria-controls="pills-certificate" aria-selected="false">Certificate</a>
+      </li>
+    </ul>
 
-      <div class="row row-cols-1 text-center pt-5 pb-1">
-        <div class="col">
-          <h1 class="fw-normal">Ponni<img src="static/images/logo.png" alt="" height="6" width="6">Valavan</h1>
-        </div>
-        <div class="col">
-          <div class="row pb-3">
-            <div class="col-sm">
-              <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="https://github.com/Groot1895" class="text-decoration-none">Groot</a>
-                  </div>
-                  <div class="carousel-item">
-                    <label>GitHub</label>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm">
-              <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="https://t.me/Shogyomujo" class="text-decoration-none">Shogyomujo</a>
-                  </div>
-                  <div class="carousel-item">
-                    <label>Telegram</label>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm">
-              <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="mailto:kponnivalavan95@gmail.com?subject=webcall" class="text-decoration-none">kponnivalavan95@gmail.com</a>
-                  </div>
-                  <div class="carousel-item">
-                    <label>Mail / iMessage </label>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col pt-3 border-top border-c">
-          <p>Looking forward for an opportunity to work in a dynamic & challenging environment, where I can utilize my skills for developing my career & for the growth of the organization</p>
-        </div>
+    <div class="tab-content text-center pt-2 pb-1" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-qualification" role="tabpanel"
+        aria-labelledby="pills-qualification-tab">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item hov"> <strong>B.E [ Computer Science ]</strong> from Saranathan College of
+            Engineering, Trichy affiliated to Anna University, Chennai with CGPA of <strong>6.2</strong> in the year
+            <strong>2018</strong>
+          </li>
+          <li class="list-group-item hov"> <strong>HSC</strong> from Velammal Matric School, Thiruvallur with
+            <strong>80%</strong> in the year <strong>2014</strong>
+          </li>
+          <li class="list-group-item hov"> <strong>SSLC</strong> from DonBosco school, Thanjavur with
+            <strong>78%</strong> in the year <strong>2011</strong>
+          </li>
+        </ul>
       </div>
-
-      <ul class="nav nav-pills pt-1 pb-1 scrollbar-hidden" id="pills-tab" role="tablist" style="overflow: auto;">
-        <li class="nav-item" role="presentation">
-          <a class="nav-link active" id="pills-qualification-tab" data-bs-toggle="pill" href="#pills-qualification" role="tab" aria-controls="pills-qualification" aria-selected="true">Qualification</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="pills-exposure-tab" data-bs-toggle="pill" href="#pills-exposure" role="tab" aria-controls="pills-exposure" aria-selected="false">Exposure</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="pills-projects-tab" data-bs-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-projects" aria-selected="false">Projects</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="pills-interest-tab" data-bs-toggle="pill" href="#pills-interest" role="tab" aria-controls="pills-interest" aria-selected="false">Interest</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="pills-experience-tab" data-bs-toggle="pill" href="#pills-experience" role="tab" aria-controls="pills-experience" aria-selected="false">Experience</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="pills-certificate-tab" data-bs-toggle="pill" href="#pills-certificate" role="tab" aria-controls="pills-certificate" aria-selected="false">Certificate</a>
-        </li>
-      </ul>
-
-      <div class="tab-content text-center pt-2 pb-1" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-qualification" role="tabpanel" aria-labelledby="pills-qualification-tab">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item hov"> <strong>B.E [ Computer Science ]</strong> from Saranathan College of Engineering, Trichy affiliated to Anna University, Chennai with CGPA of <strong>6.2</strong> in the year <strong>2018</strong> </li>
-            <li class="list-group-item hov"> <strong>HSC</strong> from Velammal Matric School, Thiruvallur with <strong>80%</strong> in the year <strong>2014</strong> </li>
-            <li class="list-group-item hov"> <strong>SSLC</strong> from DonBosco school, Thanjavur with <strong>78%</strong> in the year <strong>2011</strong> </li>
-          </ul>
-        </div>
-        <div class="tab-pane fade" id="pills-exposure" role="tabpanel" aria-labelledby="pills-exposure-tab">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item hov">C, C++, Python, Rust</li>
-            <li class="list-group-item hov">Django, Flask</li>
-            <li class="list-group-item hov">SQL Server, MariaDB, sqlite, MongoDB</li>
-            <li class="list-group-item hov">Github</li>
-          </ul>
-        </div>
-        <div class="tab-pane fade" id="pills-projects" role="tabpanel" aria-labelledby="pills-projects-tab">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item hov">WebApp <strong>Django</strong> : Multi Level Marketing Business</li>
-            <li class="list-group-item hov">WebApp <strong>Flask</strong> : Bridge <br> [ digitizing school records & parent facutly interaction ]</li>
-            <li class="list-group-item hov">WebApp <strong>Flask</strong> : E-commerce</li>
-            <li class="list-group-item hov">WebApp <strong>Django</strong> : Patient Centric Health Care Analysis <br> [ College Final year project ]</li>
-            <li class="list-group-item hov">Console Application on Banking system & Transactions in <strong>python</strong> <br> [ Code contest ]</li>
-            <li class="list-group-item hov">Website : Static Website for Cottage industry</li>
-          </ul>
-        </div>
-        <div class="tab-pane fade" id="pills-interest" role="tabpanel" aria-labelledby="pills-interest-tab">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item hov">Python, Rust</li>
-            <li class="list-group-item hov">Web development & Front-end works</li>
-            <li class="list-group-item hov">Data structures</li>
-          </ul>
-        </div>
-        <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item hov">Fresher, with Freelance Experience</li>
-          </ul>
-        </div>
-        <div class="tab-pane fade" id="pills-certificate" role="tabpanel" aria-labelledby="pills-certificate-tab">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item hov">Microsoft Technology Associate in Networking Fundamentals</li>
-          </ul>
-        </div>
+      <div class="tab-pane fade" id="pills-exposure" role="tabpanel" aria-labelledby="pills-exposure-tab">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item hov">C, C++, Python, Rust</li>
+          <li class="list-group-item hov">Django, Flask</li>
+          <li class="list-group-item hov">SQL Server, MariaDB, sqlite, MongoDB</li>
+        </ul>
       </div>
-
-      <div class=" text-center pt-3 pb-3 fs-5">
-         <u>Short Description About Projects</u>
+      <div class="tab-pane fade" id="pills-projects" role="tabpanel" aria-labelledby="pills-projects-tab">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item hov">WebApp <strong>Django</strong> : Multi Level Marketing Business</li>
+          <li class="list-group-item hov">WebApp <strong>Flask</strong> : Bridge <br> [ digitizing school records &
+            parent facutly interaction ]</li>
+          <li class="list-group-item hov">WebApp <strong>Flask</strong> : E-commerce</li>
+          <li class="list-group-item hov">WebApp <strong>Django</strong> : Patient Centric Health Care Analysis <br> [
+            College Final year project ]</li>
+          <li class="list-group-item hov">Console Application on Banking system & Transactions in
+            <strong>python</strong> <br> [ Code contest ]
+          </li>
+          <li class="list-group-item hov">Website : Static Website for Cottage industry</li>
+        </ul>
       </div>
-
-      <ul class="nav nav-pills pt-1 pb-1 scrollbar-hidden" id="pills-tab" role="tablist" style="overflow: auto;">
-        <li class="nav-item" role="presentation">
-          <a class="nav-link active" id="pills-ecommerce-tab" data-bs-toggle="pill" href="#pills-ecommerce" role="tab" aria-controls="pills-ecommerce" aria-selected="true">Zeebra E-Commerce</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="pills-patientcentrichealthcareanalysis-tab" data-bs-toggle="pill" href="#pills-patientcentrichealthcareanalysis" role="tab" aria-controls="pills-patientcentrichealthcareanalysis" aria-selected="false">Patient Centric Health Care Analysis</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="pills-cli-tab" data-bs-toggle="pill" href="#pills-cli" role="tab" aria-controls="pills-cli" aria-selected="false">Cli Bank</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="pills-bridge-tab" data-bs-toggle="pill" href="#pills-bridge" role="tab" aria-controls="pills-bridge" aria-selected="false">Bridge - SchoolApp</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="pills-mlm-tab" data-bs-toggle="pill" href="#pills-mlm" role="tab" aria-controls="pills-mlm" aria-selected="false">Multi Level Marketing</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="pills-cot-tab" data-bs-toggle="pill" href="#pills-cot" role="tab" aria-controls="pills-cot" aria-selected="false">Cottage Industry</a>
-        </li>
-      </ul>
-
-      <div class="tab-content text-center pt-1 pb-5" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-ecommerce" role="tabpanel" aria-labelledby="pills-ecommerce-tab">
-          <h6 class="text-center pt-1 pb-1 fw-normal"> <strong>Zeebra E-commerce</strong> </h6>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Role</strong>
-            </div>
-            <div class="col text-start">
-              <label>Flask & Data Management <br> Front-end Design </label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Framework</strong>
-            </div>
-            <div class="col text-start">
-              <label>Python - Flask</label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Duration</strong>
-            </div>
-            <div class="col text-start">
-              <label>1 Month [ Nov’ 2020 – Dec' 2020 ] </label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Modules</strong>
-            </div>
-            <div class="col text-start">
-              <label>User Verification <br> Product to cart <br> Order confirmation </label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-sm-3">
-              <strong>Description</strong>
-            </div>
-            <div class="col text-start">
-              <label>Online E-commerce that includes Groceries <br> Civil service peoples</label>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane fade" id="pills-patientcentrichealthcareanalysis" role="tabpanel" aria-labelledby="pills-patientcentrichealthcareanalysis-tab">
-          <h6 class="text-center pt-1 pb-1 fw-normal"> <strong>Patient Centric Health Care Analysis</strong> </h6>
-          <h6 class="fw-normal">[ Final year project ]</h6>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Role</strong>
-            </div>
-            <div class="col text-start">
-              <label>Handling Data & Datasets <br> Web Design & Front-end works</label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Framework</strong>
-            </div>
-            <div class="col text-start">
-              <label>Python - Django</label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Duration</strong>
-            </div>
-            <div class="col text-start">
-              <label>6 Months [ Jan’ 2018 – Jun' 2018 ]</label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Algorithms</strong>
-            </div>
-            <div class="col text-start">
-              <label>Random Forest <br> Decision Tree</label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Modules</strong>
-            </div>
-            <div class="col text-start">
-              <label>Data preprocessing <br> Registration & Validation <br> Disease confirmation <br> Treatment plan module <br> Suggestive medications</label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-sm-3">
-              <strong>Description</strong>
-            </div>
-            <div class="col text-start">
-              <label>Using Machine Learning Algorithms on Medical Datasets for providing proper medication to patients</label>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane fade" id="pills-cli" role="tabpanel" aria-labelledby="pills-cli-tab">
-          <h6 class="text-center pt-1 pb-1 fw-normal"> <strong>Cli Banking App</strong> </h6>
-          <h6 class="fw-normal">[ College code contest ]</h6>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Role</strong>
-            </div>
-            <div class="col text-start">
-              <label>Fullstack</label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Duration</strong>
-            </div>
-            <div class="col text-start">
-              <label>1 Month [ Nov’ 2018 - Dec' 2018 ]</label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Modules</strong>
-            </div>
-            <div class="col text-start">
-              <label> Menu <br> Administration <br> Bank Transactions <br> Users </label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-sm-3">
-              <strong>Description</strong>
-            </div>
-            <div class="col text-start">
-              <ul>
-                <li class="">This Basic Banking System was developed using Python with Oracle Database</li>
-                <li class="">Sign-in, Sign-up, Administrator Login with Database table creation</li>
-                <li class="">Admin - Update the status for an account either Lock | Unlock for user access, View all user & a particular user, Display closed accounts</li>
-                <li class="">Users - Sign-up modules for user account creation, Sign-in module for user to access bank</li>
-                <li class="">Transactions - it contains modules  Withdrawal, Fund transfer, Deposit, Mini-statement, Account Deactivation</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane fade" id="pills-bridge" role="tabpanel" aria-labelledby="pills-bridge-tab">
-          <h6 class="text-center pt-1 pb-1 fw-normal"> <strong>Bridge</strong> </h6>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Role</strong>
-            </div>
-            <div class="col text-start">
-              <label>Flask & Database Management <br> Front-end Design </label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Framework</strong>
-            </div>
-            <div class="col text-start">
-              <label>Python - Flask</label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Duration</strong>
-            </div>
-            <div class="col text-start">
-              <label>1 Month [ Sep’ 2020 - Oct' 2020 ]</label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Modules</strong>
-            </div>
-            <div class="col text-start">
-              <label> Management <br> Faculty <br> Parent <br> Grievance </label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-sm-3">
-              <strong>Description</strong>
-            </div>
-            <div class="col text-start">
-              <label> Digitizing school records & parent facutly interaction <br> <strong>Management</strong> - School management can access Database <br> <strong>Faculty</strong> - Faculty can access student database <br> <strong>Parent</strong> - can view corresponding student record & interact with Faculty <br> <strong>Grievance</strong> - anyone can push anonymous complaint </label>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane fade" id="pills-mlm" role="tabpanel" aria-labelledby="pills-mlm-tab">
-          <h6 class="text-center pt-1 pb-1 fw-normal"> <strong>Multi Level Marketing</strong> </h6>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Role</strong>
-            </div>
-            <div class="col text-start">
-              <label>Django & Database Management <br> Front-end Design </label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Framework</strong>
-            </div>
-            <div class="col text-start">
-              <label>Python - Django</label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Duration</strong>
-            </div>
-            <div class="col text-start">
-              <label>1 Month [ Dec’ 2020 – Jan' 2020 ]</label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Modules</strong>
-            </div>
-            <div class="col text-start">
-              <label> Management <br> Downlines <br> Wallet <br> Product <br> E-Commerce </label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-sm-3">
-              <strong>Description</strong>
-            </div>
-            <div class="col text-start">
-              <label> Rehoboth Multi Level Marketing is a startup Business [ Matrix methodology ]</label>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane fade" id="pills-cot" role="tabpanel" aria-labelledby="pills-cot-tab">
-          <h6 class="text-center pt-1 pb-1 fw-normal"> <strong>Cottage Industry</strong> </h6>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Role</strong>
-            </div>
-            <div class="col text-start">
-              <label>Website Management <br> Order Management </label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Duration</strong>
-            </div>
-            <div class="col text-start">
-              <label>1 Month [ Jan’ 2021 – Jan' 2021 ]</label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-3">
-              <strong>Modules</strong>
-            </div>
-            <div class="col text-start">
-              <label>Order Management</label>
-            </div>
-          </div>
-          <div class="row hov pt-1 pb-1">
-            <div class="col-sm-3">
-              <strong>Description</strong>
-            </div>
-            <div class="col text-start">
-              <label> A Static Website for a Local Cottage Industry</label>
-            </div>
-          </div>
-        </div>
+      <div class="tab-pane fade" id="pills-interest" role="tabpanel" aria-labelledby="pills-interest-tab">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item hov">Python, Rust</li>
+          <li class="list-group-item hov">Web development & Front-end works</li>
+          <li class="list-group-item hov">Data structures</li>
+        </ul>
       </div>
-
+      <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item hov">Fresher, with Freelance Experience</li>
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="pills-certificate" role="tabpanel" aria-labelledby="pills-certificate-tab">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item hov">Microsoft Technology Associate in Networking Fundamentals</li>
+        </ul>
+      </div>
     </div>
 
-  </body>
+    <div class=" text-center pt-3 pb-3 fs-5">
+      <u>Short Description About Projects</u>
+    </div>
+
+    <ul class="nav nav-pills pt-1 pb-1 scrollbar-hidden" id="pills-tab" role="tablist" style="overflow: auto;">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="pills-ecommerce-tab" data-bs-toggle="pill" href="#pills-ecommerce" role="tab"
+          aria-controls="pills-ecommerce" aria-selected="true">Zeebra E-Commerce</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-patientcentrichealthcareanalysis-tab" data-bs-toggle="pill"
+          href="#pills-patientcentrichealthcareanalysis" role="tab"
+          aria-controls="pills-patientcentrichealthcareanalysis" aria-selected="false">Patient Centric Health Care
+          Analysis</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-cli-tab" data-bs-toggle="pill" href="#pills-cli" role="tab"
+          aria-controls="pills-cli" aria-selected="false">Cli Bank</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-bridge-tab" data-bs-toggle="pill" href="#pills-bridge" role="tab"
+          aria-controls="pills-bridge" aria-selected="false">Bridge - SchoolApp</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-mlm-tab" data-bs-toggle="pill" href="#pills-mlm" role="tab"
+          aria-controls="pills-mlm" aria-selected="false">Multi Level Marketing</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-cot-tab" data-bs-toggle="pill" href="#pills-cot" role="tab"
+          aria-controls="pills-cot" aria-selected="false">Cottage Industry</a>
+      </li>
+    </ul>
+
+    <div class="tab-content text-center pt-1 pb-5" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-ecommerce" role="tabpanel" aria-labelledby="pills-ecommerce-tab">
+        <h6 class="text-center pt-1 pb-1 fw-normal"> <strong>Zeebra E-commerce</strong> </h6>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Role</strong>
+          </div>
+          <div class="col text-start">
+            <label>Flask & Data Management <br> Front-end Design </label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Framework</strong>
+          </div>
+          <div class="col text-start">
+            <label>Python - Flask</label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Duration</strong>
+          </div>
+          <div class="col text-start">
+            <label>1 Month [ Nov’ 2020 – Dec' 2020 ] </label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Modules</strong>
+          </div>
+          <div class="col text-start">
+            <label>User Verification <br> Product to cart <br> Order confirmation </label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-sm-3">
+            <strong>Description</strong>
+          </div>
+          <div class="col text-start">
+            <label>Online E-commerce that includes Groceries <br> Civil service peoples</label>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-patientcentrichealthcareanalysis" role="tabpanel"
+        aria-labelledby="pills-patientcentrichealthcareanalysis-tab">
+        <h6 class="text-center pt-1 pb-1 fw-normal"> <strong>Patient Centric Health Care Analysis</strong> </h6>
+        <h6 class="fw-normal">[ Final year project ]</h6>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Role</strong>
+          </div>
+          <div class="col text-start">
+            <label>Handling Data & Datasets <br> Web Design & Front-end works</label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Framework</strong>
+          </div>
+          <div class="col text-start">
+            <label>Python - Django</label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Duration</strong>
+          </div>
+          <div class="col text-start">
+            <label>6 Months [ Jan’ 2018 – Jun' 2018 ]</label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Algorithms</strong>
+          </div>
+          <div class="col text-start">
+            <label>Random Forest <br> Decision Tree</label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Modules</strong>
+          </div>
+          <div class="col text-start">
+            <label>Data preprocessing <br> Registration & Validation <br> Disease confirmation <br> Treatment plan
+              module <br> Suggestive medications</label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-sm-3">
+            <strong>Description</strong>
+          </div>
+          <div class="col text-start">
+            <label>Using Machine Learning Algorithms on Medical Datasets for providing proper medication to
+              patients</label>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-cli" role="tabpanel" aria-labelledby="pills-cli-tab">
+        <h6 class="text-center pt-1 pb-1 fw-normal"> <strong>Cli Banking App</strong> </h6>
+        <h6 class="fw-normal">[ College code contest ]</h6>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Role</strong>
+          </div>
+          <div class="col text-start">
+            <label>Fullstack</label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Duration</strong>
+          </div>
+          <div class="col text-start">
+            <label>1 Month [ Nov’ 2018 - Dec' 2018 ]</label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Modules</strong>
+          </div>
+          <div class="col text-start">
+            <label> Menu <br> Administration <br> Bank Transactions <br> Users </label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-sm-3">
+            <strong>Description</strong>
+          </div>
+          <div class="col text-start">
+            <ul>
+              <li class="">This Basic Banking System was developed using Python with Oracle Database</li>
+              <li class="">Sign-in, Sign-up, Administrator Login with Database table creation</li>
+              <li class="">Admin - Update the status for an account either Lock | Unlock for user access, View all user
+                & a particular user, Display closed accounts</li>
+              <li class="">Users - Sign-up modules for user account creation, Sign-in module for user to access bank
+              </li>
+              <li class="">Transactions - it contains modules Withdrawal, Fund transfer, Deposit, Mini-statement,
+                Account Deactivation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-bridge" role="tabpanel" aria-labelledby="pills-bridge-tab">
+        <h6 class="text-center pt-1 pb-1 fw-normal"> <strong>Bridge</strong> </h6>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Role</strong>
+          </div>
+          <div class="col text-start">
+            <label>Flask & Database Management <br> Front-end Design </label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Framework</strong>
+          </div>
+          <div class="col text-start">
+            <label>Python - Flask</label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Duration</strong>
+          </div>
+          <div class="col text-start">
+            <label>1 Month [ Sep’ 2020 - Oct' 2020 ]</label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Modules</strong>
+          </div>
+          <div class="col text-start">
+            <label> Management <br> Faculty <br> Parent <br> Grievance </label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-sm-3">
+            <strong>Description</strong>
+          </div>
+          <div class="col text-start">
+            <label> Digitizing school records & parent facutly interaction <br> <strong>Management</strong> - School
+              management can access Database <br> <strong>Faculty</strong> - Faculty can access student database <br>
+              <strong>Parent</strong> - can view corresponding student record & interact with Faculty <br>
+              <strong>Grievance</strong> - anyone can push anonymous complaint </label>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-mlm" role="tabpanel" aria-labelledby="pills-mlm-tab">
+        <h6 class="text-center pt-1 pb-1 fw-normal"> <strong>Multi Level Marketing</strong> </h6>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Role</strong>
+          </div>
+          <div class="col text-start">
+            <label>Django & Database Management <br> Front-end Design </label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Framework</strong>
+          </div>
+          <div class="col text-start">
+            <label>Python - Django</label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Duration</strong>
+          </div>
+          <div class="col text-start">
+            <label>1 Month [ Dec’ 2020 – Jan' 2020 ]</label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Modules</strong>
+          </div>
+          <div class="col text-start">
+            <label> Management <br> Downlines <br> Wallet <br> Product <br> E-Commerce </label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-sm-3">
+            <strong>Description</strong>
+          </div>
+          <div class="col text-start">
+            <label> Rehoboth Multi Level Marketing is a startup Business [ Matrix methodology ]</label>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-cot" role="tabpanel" aria-labelledby="pills-cot-tab">
+        <h6 class="text-center pt-1 pb-1 fw-normal"> <strong>Cottage Industry</strong> </h6>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Role</strong>
+          </div>
+          <div class="col text-start">
+            <label>Website Management <br> Order Management </label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Duration</strong>
+          </div>
+          <div class="col text-start">
+            <label>1 Month [ Jan’ 2021 – Jan' 2021 ]</label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-3">
+            <strong>Modules</strong>
+          </div>
+          <div class="col text-start">
+            <label>Order Management</label>
+          </div>
+        </div>
+        <div class="row hov pt-1 pb-1">
+          <div class="col-sm-3">
+            <strong>Description</strong>
+          </div>
+          <div class="col text-start">
+            <label> A Static Website for a Local Cottage Industry</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
 </html>
