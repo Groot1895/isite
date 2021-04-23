@@ -51,7 +51,7 @@ html {
 
   .nav-pills .nav-link {    
     color: gray;
-    box-shadow: 3px 3px 6px #dddddd, -3px -3px 6px #ffffff;    
+    box-shadow: 3px 3px 6px #dddddd, -3px -3px 6px #ffffff;
   }
   
   .nav-pills .nav-link.active,
