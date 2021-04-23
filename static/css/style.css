@@ -104,15 +104,21 @@ html {
     color: white;
   }  
 
-  .nav-pills .nav-link {
-    border-radius: 1rem;
-    color: gray;    
+  .nav-pills .nav-link {    
+    background: linear-gradient(to right, gray 1%, gainsboro 3%,  gainsboro 6%, gray 9%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 300% auto;
+    animation: textShine 9s linear infinite;
   }
   
   .nav-pills .nav-link.active,
   .nav-pills .show > .nav-link {
     background: inherit;
-    color: white;    
+    -webkit-text-fill-color: white;
+    text-fill-color: white;
   }
 
   .hov:hover {
@@ -153,5 +159,11 @@ html {
   }
   100%{
     transform: scale(1);
+  }
+}
+
+@keyframes textShine {
+  to {
+    background-position: -300%;
   }
 }
