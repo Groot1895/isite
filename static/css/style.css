@@ -51,15 +51,13 @@ html {
 
   .nav-pills .nav-link {
     border-radius: 1rem;
-    color: gray;
-    box-shadow: 3px 3px 6px #dddddd, -3px -3px 6px #ffffff;    
+    color: gray;    
   }
   
   .nav-pills .nav-link.active,
   .nav-pills .show > .nav-link {
     background: inherit;
-    color: black;
-    box-shadow: 3px 3px 6px #dddddd, -3px -3px 6px #ffffff,inset 3px 3px 6px #dddddd, inset -3px -3px 6px #ffffff;
+    color: black;    
   }
 
   .hov:hover {
